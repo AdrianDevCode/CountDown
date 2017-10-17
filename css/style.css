@@ -1,0 +1,58 @@
+html, body {
+  background: url("../img/bg.jpeg") center center no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+#logo img {
+    margin:0 auto !important;
+    padding-top:20px;
+}
+
+#intro p {
+    color: white;
+    text-align:center;
+    font-family: 'Just Another hand', Times, cursive;
+    font-size:5em;
+    text-align: center;
+}
+#counter .countdown {
+    text-align: center;
+    color:white;
+    font-family: 'Amatic SC', Times, cursive;
+    font-size: 4em;
+    word-spacing: .2em;
+}
+#icons .fa {
+  position: relative;
+  margin-right: 10px;
+  color: white;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+}
+#icons {
+  text-align: center;
+}
+#icons .twitter:hover {
+  color: #80b3ff;
+  bottom: 10px;
+}
+#icons .google:hover {
+  color: red;
+bottom: 10px;
+}
+#icons .facebook:hover {
+  color: #4d94ff;
+  bottom: 10px;
+}
+#icons .instagram:hover {
+  color: #ff4da6;
+  bottom: 10px;
+}
+#icons .linkedin:hover {
+  color: #2C6EE8;
+  bottom: 10px;
+}
+#icons .github:hover {
+  color: #070201;
+  bottom: 10px;
+}
